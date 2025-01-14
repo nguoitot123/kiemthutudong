@@ -56,4 +56,6 @@ Cảnh Báo SLF4J: Nếu bạn thấy cảnh báo liên quan đến SLF4J (Faile
     <version>1.2.10</version>
 </dependency>
 
+https://chatgpt.com/c/67864bfa-1a04-8013-b064-a89488380281
+
 
