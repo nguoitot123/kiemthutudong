@@ -47,8 +47,10 @@ Chờ thông báo thành công (h1 chứa văn bản "Congratulations").
 Nếu thông báo thành công xuất hiện, bài kiểm thử sẽ thành công. Nếu không, nó sẽ ném ra một ngoại lệ.
 Giải Quyết Lỗi
 
-Cảnh Báo SLF4J: Nếu bạn thấy cảnh báo liên quan đến SLF4J (Failed to load class "org.slf4j.impl.StaticLoggerBinder"), bạn có thể thêm một backend logger như Logback vào dự án bằng cách thêm phần phụ thuộc sau vào pom.xml:
+Cảnh Báo SLF4J: Nếu bạn thấy cảnh báo liên quan đến SLF4J (Failed to load class "org.slf4j.impl.StaticLoggerBinder"), bạn có thể thêm một backend logger như Logback vào dự án bằng cách thêm phần phụ thuộc sau vào
 
+```pom.xml:
+                   
 <dependency>
     <groupId>ch.qos.logback</groupId>
     <artifactId>logback-classic</artifactId>
