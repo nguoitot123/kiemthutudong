@@ -17,7 +17,7 @@ Trước khi chạy bài kiểm thử, bạn cần đảm bảo rằng hệ th�
 
 Clone repository này về máy tính của bạn:
 
-```bash
+
 git clone https://github.com/your-username/selenium-login-test.git
 cd selenium-login-test
 
@@ -26,15 +26,13 @@ cd selenium-login-test
 
 mvn clean install
 
-3. Thêm ChromeDriver
+# 3. Thêm ChromeDriver
 Đảm bảo bạn đã tải về ChromeDriver phiên bản phù hợp với trình duyệt Chrome của bạn. Bạn có thể tải ChromeDriver tại đây: ChromeDriver tải về
 
 Sau khi tải về, hãy đặt chromedriver.exe vào PATH của hệ thống hoặc chỉ định đường dẫn trực tiếp trong mã nguồn.
 
 Chạy Bài Kiểm Thử
 Bạn có thể chạy các bài kiểm thử bằng Maven:
-
-
 
 mvn test
 
@@ -56,6 +54,6 @@ Cảnh Báo SLF4J: Nếu bạn thấy cảnh báo liên quan đến SLF4J (Faile
     <version>1.2.10</version>
 </dependency>
 
-https://chatgpt.com/c/67864bfa-1a04-8013-b064-a89488380281
+
 
 
